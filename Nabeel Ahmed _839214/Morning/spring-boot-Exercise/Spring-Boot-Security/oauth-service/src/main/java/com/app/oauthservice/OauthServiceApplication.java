@@ -1,4 +1,4 @@
-package com.example.oauthservice;
+package com.app.oauthservice;
 
 import java.util.HashMap;
 import java.util.Map;

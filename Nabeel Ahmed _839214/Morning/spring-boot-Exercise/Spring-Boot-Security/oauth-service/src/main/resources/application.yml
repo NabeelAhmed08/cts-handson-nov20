@@ -1,14 +1,14 @@
 server:
-  port: 8081
+  port: 9090
   
 security:
   oauth2:
     resource:
-      token-info-uri: http://localhost:8081/oauth/token
+      token-info-uri: http://localhost:9090/oauth/token
     client:
       client-id: my-client
       client-secret: secretpassword
-      user-authorization-uri: http://localhost:8081/user
+      user-authorization-uri: http://localhost:9090/user
       authentication-scheme: form
       scope:
       - webclient

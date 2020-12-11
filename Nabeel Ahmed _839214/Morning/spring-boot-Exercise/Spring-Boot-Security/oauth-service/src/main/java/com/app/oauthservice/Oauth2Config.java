@@ -1,4 +1,4 @@
-package com.example.oauthservice;
+package com.app.oauthservice;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
